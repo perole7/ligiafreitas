@@ -35,8 +35,8 @@ const Hero = () => {
         </div>
         
         <div className="hero-image-container animate-fade-in" style={{animationDelay: '0.2s'}}>
-          <div className="hero-logo-card glass-panel">
-            <img src="/visual_identity.png" alt="Identidade Visual Dra. Lígia de Freitas Souza" className="visual-identity-img" />
+          <div className="hero-image-card glass-panel">
+            <img src="/assets/ligia_hero.png" alt="Dra. Lígia de Freitas Souza" className="hero-profile-img" />
           </div>
           
           <div className="floating-card experience-card glass-panel">

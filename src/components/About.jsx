@@ -8,12 +8,8 @@ const About = () => {
       <div className="container">
         <div className="about-grid">
           <div className="about-image-wrapper">
-            <div className="about-image-placeholder glass-panel">
-              <div className="placeholder-content">
-                <span className="placeholder-icon">👩‍⚕️</span>
-                <p>Foto Profissional</p>
-                <small>Dra. Lígia em atendimento ou pose profissional</small>
-              </div>
+            <div className="about-image-card glass-panel">
+              <img src="/assets/ligia_about.png" alt="Dra. Lígia de Freitas" className="about-profile-img" />
             </div>
             <div className="experience-badge">
               <span>+</span>
@@ -23,7 +19,7 @@ const About = () => {
           
           <div className="about-content">
             <h2>Sua Beleza em Boas Mãos</h2>
-            <h3 className="about-title">Dra. Lígia Freitas</h3>
+            <h3 className="about-title">Dra. Lígia de Freitas Souza</h3>
             <p className="about-bio">
               Sou biomédica esteta apaixonada por transformar vidas através do autocuidado. 
               Minha missão é realçar o que você tem de melhor, respeitando seus traços únicos 

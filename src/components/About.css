@@ -10,17 +10,25 @@
   height: 600px;
 }
 
-.about-image-placeholder {
+.about-image-card {
   width: 100%;
   height: 100%;
   border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   background: var(--color-bg);
   border: 1px solid var(--color-primary-light);
   overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  padding: 1rem;
+}
+
+.about-profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-md);
 }
 
 .experience-badge {
